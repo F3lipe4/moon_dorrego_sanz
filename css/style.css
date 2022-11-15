@@ -95,3 +95,40 @@
 .imgs img{
     padding: 0 15px;
 }
+@media screen and (max-width: 400px) {
+    .flex {
+        flex-flow: column wrap;
+    }
+    .principal {
+        max-width: 400px;
+        width: 100%;
+    }
+    .body-center{
+        text-align: center;
+        align-content: center;
+        max-width: 400px;
+        width: 47%;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .formulari input{
+        max-width: 100px;
+        width: 100%;
+    }
+    .formulari label{
+        font-size: 12px;
+    }
+    .formulari h1{
+        font-size: 16px;
+    }
+    .footera{
+        margin-top: 67.5%;
+    }
+    .footerb{
+        margin-top: 31%;
+    }
+    .footerc{
+        margin-top: 48%;
+    }
+}
