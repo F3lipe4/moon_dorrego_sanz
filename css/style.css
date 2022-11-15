@@ -1,0 +1,63 @@
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+.principal{
+    border: 1px solid black;
+    background: white;
+    width: 1440px;
+    height: 90vh;
+    flex-wrap: row wrap;
+    flex-flow: row wrap;
+    background-image: url(../imgs/moon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.info{
+    height: 5%;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    background-color: #3a86ff;
+}
+
+.info a{
+    padding: 0 15px;
+    font-size: 15px;
+    color: white;
+}
+.info a.active,
+.info a:hover {
+    background-color: #8338ec;
+}
+.menu a:hover{
+    background-color: #8338ec;
+}
+.galeria a:hover{
+    background-color: #8338ec;
+}
+.reserva a:hover{
+    background-color: #8338ec;
+}
+.body-center{
+    border: 5px solid #3a86ff;
+    background-color: rgba(131, 56, 236, 0.5);
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 20%;
+}
+.btn{
+    background-color: #8338ec;
+    border-radius: 6px;
+}
+.footer{
+    border: 1px solid black;
+    height: 5%;
+    margin-top: 30%;
+    background-color: #3a86ff;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
