@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reserva</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,16 +12,37 @@
         <header>
             <div class="info flex">
                 <div class="menu flex">
-                    <a href="/index.html">Menu</a>
+                    <a class="active" href="/index.html">Menu</a>
                 </div>
                 <div class="galeria flex">
                     <a href="/galeria.html">Galeria</a>
                 </div>
                 <div class="reserva flex">
-                    <a class="active" href="/reserva.html">Reserva</a>
+                    <a href="/reserva.html">Reserva</a>
                 </div>
             </div>
         </header>
+        <section class="body flex">
+            <div class="body-center flex">
+                <div class="formulari">
+                    <h1>Reserva el teu viatge a la lluna</h1>
+                    <form action="/index.html" method="GET">
+                    <label for="nom">Passatgers:</label><br>
+                    <input type="text" id="nom" name="nom" required><br>
+                    <label for="sortida">Data sortida:</label><br>
+                    <input type="date" id="sortida" required><br>
+                    <label for="tornada">Data tornada:</label><br>
+                    <input type="date" id="tornada" required><br>
+                    <input type="submit" value="Enviar">
+                </form>
+                </div>
+            </div>
+        </section>
+        <section class="footerc flex">
+            <div class="footer1 flex">
+                <p>Carrer cabana 31,07141 Es pont d'Inca</p>
+            </div>
+        </section>
     </section>
 </body>
 </html>

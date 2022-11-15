@@ -6,6 +6,7 @@
     border: 1px solid black;
     background: white;
     width: 1440px;
+    height: 1024px;
     height: 90vh;
     flex-wrap: row wrap;
     flex-flow: row wrap;
@@ -52,7 +53,12 @@
     background-color: #8338ec;
     border-radius: 6px;
 }
-.footer{
+.formulari input{
+    border: 3px solid black;
+    border-radius: 9px;
+    background-color: rgba(58, 134, 255, 0.5);
+}
+.footera{
     border: 1px solid black;
     height: 5%;
     margin-top: 30%;
@@ -60,4 +66,32 @@
     text-align: center;
     justify-content: center;
     color: white;
+}
+.footerb{
+    border: 1px solid black;
+    height: 5%;
+    background-color: #3a86ff;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.footerc{
+    border: 1px solid black;
+    height: 5%;
+    margin-top: 23%;
+    background-color: #3a86ff;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.imgs{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+.img{
+    width: 25%;
+}
+.imgs img{
+    padding: 0 15px;
 }
