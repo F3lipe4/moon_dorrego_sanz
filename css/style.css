@@ -1,3 +1,4 @@
+/* FDS: CSS */
 .flex{
     display: flex;
     flex-flow: row wrap;
@@ -94,6 +95,59 @@
 }
 .imgs img{
     padding: 0 15px;
+}
+@media screen and (max-width:1199px) {
+    .principal {
+        max-width: 1199px;
+        width: 100%;
+    }
+    .footera{
+        margin-top: 41.5%;
+    }
+    .footerb{
+        margin-top: 14.9%;
+    }
+    .footerc{
+        margin-top: 33.1%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .principal {
+        max-width: 991;
+        width: 100%;
+    }
+    .text{
+        max-width: 450px;
+        width: 100%;
+    }
+    .footera{
+        margin-top: 52.6%;
+    }
+    .footerb{
+        margin-top: 30%;
+    }
+    .footerc{
+        margin-top: 44.5%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .principal {
+        max-width: 767px;
+        width: 100%;
+    }
+    .text {
+        max-width: 300px;
+        width: 100%;
+    }
+    .footera{
+        margin-top: 71.7%;
+    }
+    .footerb{
+        margin-top: 55.8%;
+    }
+    .footerc{
+        margin-top: 63.7%;
+    }
 }
 @media screen and (max-width: 400px) {
     .flex {
